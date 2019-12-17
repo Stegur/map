@@ -1,6 +1,6 @@
 // TODO: write your code here
-import sum from './basic';
+import ErrorRepository from './ErrorRepository';
 
-console.log('worked');
+const list = new ErrorRepository();
 
-console.log(sum([1, 2]));
+console.log(list.translate(508));
